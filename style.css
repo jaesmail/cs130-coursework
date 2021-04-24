@@ -6,16 +6,31 @@
 body {
     margin: 0px;
     font-family: Arial, sans-serif;
+    border: 2px solid yellow;
 }
 header, section {
     padding: 20px;
 }
+
+header {
+    background-color: #F0F0F0;
+}
+
 p, li {
     line-height: 1.5em;
 }
 
 #inspiration {
     background-color: #F0F0F0;
-    padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+}
+
+#tutorials, #homework, #inspiration {
+    background-color: #F0F0F0;
+    flex: 1;
+    border: 2px solid yellow;
 }
