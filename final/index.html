@@ -1,33 +1,55 @@
-<html>
-    <head>
-        <title>Jihad Esmail</title>
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body id="container">
-        <header>
-            <h2>Jihad Esmail</h2>
-            <nav>
-                <ul class="navbar">
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Writing</li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="main-about">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jihad Esmail</title>
 
-            </div>
-            <div class="main-image">
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main class="wrapper">
+      <header class="header">
+        <a href="" class="logo">
+          <h3>Jihad Esmail</h3>
+        </a>
 
-            </div>
-            <div class="counters">
-                
-            </div>
-        </main>
-        <footer>
+        <nav class="nav">
+          <a href="" class="nav__item">Home</a
+          ><a href="./projects.html" class="nav__item">Projects</a
+          ><a href="./writing.html" class="nav__item">Writing</a>
+        </nav>
+      </header>
 
-        </footer>
-    </body>
+      <section class="hero">
+        <div class="hero__body">
+          <h1>Hey, I'm Jihad!</h1>
+          <p>
+            I love building tools, workflows, and automation. Recently, I've been thinking about crypto, the creator economy, and community ownership.
+          </p>
+
+          <ul>
+            <li>
+              I'm trying to keep a running count of my book list here. This year, I've read <span id="booksread"></span> books (automatically updated by Readwise).
+              </li>
+              <li>
+                Soon, I'll update this website to include a count of articles, podcasts, music, and more!
+              </li>
+          </ul>
+        </div>
+
+        <div class="hero__media">
+          <img src="portrait.png" alt="" />
+        </div>
+      </section>
+
+      <footer>
+        <p>© 2021 Jihad Esmail</p>
+      </footer>
+    </main>
+  </body>
 </html>
