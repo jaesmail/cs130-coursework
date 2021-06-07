@@ -7,7 +7,10 @@ $.ajax({
     },
     data: {"page_size": 500, "category": "articles"},
     success: function (result) {
-      console.log(result.count)
+      var books = result.count;
+      console.log(books)
+      $( "#booksread" ).append( "<span>" + books + "</span>" );
+
     },
     error: function (error) {
       console.log(error)
